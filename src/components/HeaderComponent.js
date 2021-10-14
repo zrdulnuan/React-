@@ -88,7 +88,7 @@ class Header extends Component {
             </div>
         </Jumbotron>
         <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-            <ModalHeader isOpen={this.state.isModalOpen} toggle={this.toggleModal}>Login</ModalHeader>
+            <ModalHeader isOpen={this.state.isModalOpen} toggle={this.toggleModal}> Login</ModalHeader>
             <ModalBody>
                 <Form onSubmit={this.handleLogin}>
                     <FormGroup>
@@ -105,7 +105,7 @@ class Header extends Component {
                             Remember Me?
                         </Label>
                     </FormGroup>   
-                    <Button type="submit" value="submit" color="primary">Login</Button>             
+                    <Button type="submit" value="submit" color="primary"> Login</Button>             
                 </Form>
             </ModalBody>
         </Modal>
