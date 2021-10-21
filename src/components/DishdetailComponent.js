@@ -124,7 +124,7 @@ function RenderComments({comments, postComment, dishId}) {
     return(
         <div>
             <h4>Comments</h4>
-            <ul className="list-unstyles">
+            <ul className="list-unstyled">
                 <Stagger in>    
                     {comments.map((comment) => 
                         <Fade in>
